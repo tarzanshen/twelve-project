@@ -1,0 +1,42 @@
+@import url(base.css);
+@import url(reset.css);
+@import url(header.css);
+
+.footer-margin {
+    margin-left: 20px;
+}
+.footer-icon {
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+    background: url(../image/weixin.png) no-repeat;
+}
+.footer-padding {
+    padding-bottom: 1rem;
+}
+.footer-copy {
+    border-top: 1px solid #32c086;
+}
+.footer-copy1 {
+   
+}
+.text-right1 {
+    text-align: right;
+}
+@media (max-width:768px) {
+    .footer-copy1 {
+        border-bottom: 1px solid #32c086;
+        padding-bottom: 0.5rem;
+    }
+    .text-right1 {
+        text-align: left;
+    }
+}
+
+.footer-span {
+    span {
+        &:hover {
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
