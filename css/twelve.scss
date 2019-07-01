@@ -38,7 +38,7 @@
     }
     .banner-circle{
         bottom: 5px;
-        left: 50%;
+        left: 44%;
     li{
         width: 15px;
         height: 15px;
@@ -108,6 +108,11 @@
 }
 .main-people-border {
     border-left: 2px dashed #dedede;
+}
+@media (max-width:576px) {
+    .main-people-border {
+        border-left: none;
+    }
 }
 .main-leaning {
     width: 55px;

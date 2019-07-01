@@ -5,7 +5,25 @@
 
 .banner {
     height: 13vw;
-    background: url(../image/center.png) no-repeat 0 0/100%;
+    background: url(../image/hand.png) no-repeat 0 0/100%;
+}
+.banner-left {
+    left: 45%;
+    top: 35%;
+    font-size: 2vw;
+}
+.banner-right {
+    left: 53%;
+    top: 47%;
+    font-size: 2.5vw;
+}
+.banner-font {
+    width: 9%;
+    height: 27%;
+    left: 44%;
+    top: 57%;
+    background: url(../image/font.png) no-repeat ;
+    background-size: 100%;
 }
 .col-l {
     width: 100%;
@@ -96,6 +114,9 @@
     padding-bottom: 1rem;
     border-top: 1px solid transparent;
 
+}
+.condition-mar {
+    margin-bottom: 2rem;
 }
 .condition {
     text-indent: 2em;

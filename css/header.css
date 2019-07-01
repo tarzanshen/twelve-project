@@ -71,7 +71,7 @@
 
 .button {
   position: absolute;
-  right: 20%;
+  right: 10%;
   top: 30px;
   z-index: 999;
   width: 35px;
@@ -81,7 +81,7 @@
 
 .button1 {
   position: absolute;
-  right: 20%;
+  right: 10%;
   top: 30px;
   display: none;
   width: 35px;
@@ -119,7 +119,7 @@
 
 @media (max-width: 768px) {
   .pro-padding {
-    margin-left: 20%;
+    margin-left: 15%;
   }
   .nav-mobile {
     display: block;
@@ -152,6 +152,9 @@
 @media (max-width: 576px) {
   .container {
     width: 95%;
+  }
+  .text-center2 {
+    text-align: center;
   }
 }
 
@@ -200,6 +203,15 @@
 @media (min-width: 1200px) {
   .container {
     width: 1140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .button {
+    right: 6%;
+  }
+  .button1 {
+    right: 6%;
   }
 }
 

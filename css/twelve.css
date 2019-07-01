@@ -43,7 +43,7 @@
 
 .banner .banner-circle {
   bottom: 5px;
-  left: 50%;
+  left: 44%;
 }
 
 .banner .banner-circle li {
@@ -120,6 +120,12 @@
 
 .main-people-border {
   border-left: 2px dashed #dedede;
+}
+
+@media (max-width: 576px) {
+  .main-people-border {
+    border-left: none;
+  }
 }
 
 .main-leaning {
